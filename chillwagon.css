@@ -1,0 +1,107 @@
+#container   /* Kontener, definiuje wielkość treści na stronie */
+{
+	width: 1000px; /* Szerokośc treści na stronie */
+	margin-left: auto; /* Margines po lewej */
+	margin-right: auto; /* Margines po prawej */
+}
+body {    /* Definiuje wygląd ciała strony */
+    background-image: url("background-image.png"); /* Kolor tła strony */
+    background-repeat: no-repeat; /*Nie powtarzanie się tła*/
+    background-size: 100%; /*Skalowanie na pełen ekran*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Czcionka nie szeryfowa */
+}
+#logo { /* Opcje loga */
+    font-size: 50px; /* Wielkość czcionki */
+    color:yellow; /* Kolor czcionki */
+    text-shadow: -5px 2px red; /* Cień czcionki */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    font-style: italic; /* Pochylenie czcionki */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Czcionka nie szeryfowa */
+    transition: 2s; /* Czas przejścia przy ładowaniu strony */
+}
+#menu {
+    background-color: darkgrey; /* Kolor tła menu */
+    margin: 20px 0px 0px; /* Marginesy tła menu */
+    font-size: 33px; /* Wielkość czcionki opcji menu */
+    padding: 10px; /* Odstęp od treści opcji */
+    font-style: italic; /* Pochylenie tesktu */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Czcionka nie szeryfowa */
+}
+div.option {
+    color:yellow; /* Kolor czcionki opcji */
+    text-shadow: -3px 1px red; /* Cień czcionki opcji */
+    float: left; /* Przesunięcie do lewej krawędzi */
+    padding: 10px; /* Odstęp od treści */
+    padding-left: 35px; /* Odstęp od treści po lewej stronie */
+    padding-bottom: 15px; /* Odstęp od treści od dołu */
+    transition: 0.3s; /* Czas przejścia przy ładowaniu strony */
+}
+div.option:hover {  /* Zachowanie opcji przy najechaniu na nie kursorem */
+    cursor: pointer; /* Zmiana kursora myszki z grotu na łapkę */
+    color: red; /* Zmiana koloru czcionki na czerwony */
+    text-shadow: -3px 1px yellow;  /* Zmiana cienia czcionki na żołty */
+    transform: scale(1.3,1.3) rotate(10deg); /* Zwiększenie czcionki opcji i obrócenie o 10 stopni */
+}
+#topbar {
+    background-color: black; /* Kolor tła */
+    padding: 10px;  /* Odstęp od treści */
+    margin: 20px 0px 20px; /* Margines */
+    float: left; /* Tekst od lewej */
+}
+#topbarL {
+    float: left; /* Tekst od lewej */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    width: 138px; /* Szerokość */
+    margin-right: 10px; /* Margines po prawej */
+    transition: 0.3s; /* Czas przejścia przy ładowaniu strony */
+    transform: rotate(360deg);  /* Obrót treści przy załadwaniu strony */
+}
+#topbarR {
+    float: left; /* Tekst od lewej */
+    color: white; /* Kolor czcionki */
+    font-size: 18px; /* Wielkość czcionki */
+    width: 819px; /* Szerokośc */
+    word-spacing: 0.5px; /* Odstęp między słowami */
+    border-left: dotted; /* Granica z lewej kropkowana */
+    border-color: yellow; /* Kolor granicy żółty */
+    padding-left: 10px; /* Odstęp od treści po lewej */
+    transition: 0.3s; /* Czas przejścia przy ładowaniu strony */
+}
+.bigtitle {
+    font-weight: bold;  /* Porgrubienie czcionki */
+    font-size: 28px; /* Wielkośc czcionki */
+    padding-bottom: 0px; /* Odstęp od treści na dole */
+}
+#content {
+    color: white; /* Color czcionki biały*/
+    background-color: #262625; /* Kolor tła */
+    float: left; /* Rozpoczęcie tekstu od lewej */
+    font-size: 20px; /* Wielkość czcionki */
+    padding: 20px; /* Odstęp od treści */
+    transition: 0.3s;  /* Czas przejścia przy ładowaniu strony */
+}
+.bigtitle_content {
+    font-weight: bold; /* Pogrubienie czcionki */
+    font-size: 35px; /* Wielkość czcionki */
+    padding-bottom: 0px; /* Odstęp od treści na dole */
+    padding: 10px; /* Odstęp od treści */
+    color:yellow; /* Kolor czcionki żółty */
+    text-shadow: -3px 1px red; /* Cień tekstu czerwony */
+    font-style: italic; /* Kursywa tekstu */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Czcionka bezszeryfowa */
+}
+.dottedline {
+    height: 5px; /* Wysyokość lini */
+    border-bottom: dotted; /* Dolna kropkowana granica */
+    border-color: yellow; /* Żółty kolor granicy */
+    }
+#footer { /* Stopka */
+    clear: both;  /* Wyczyszczenie poprzednich stylów */ 
+    text-align: center; /* Wyśrodkowanie tekstu */
+    color: white; /* Kolor czcionki */
+    padding: 20px; /* Odstęp o treści */
+    font-family: 'Lato', sans-serif; /* Czcionka bezszeryfowa */
+}
+a {
+    color: yellow; /* Zmiana koloru hiperłącza */
+}
