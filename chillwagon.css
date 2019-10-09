@@ -8,6 +8,7 @@ body {    /* Definiuje wygląd ciała strony */
     background-image: url("background-image.png"); /* Kolor tła strony */
     background-repeat: no-repeat; /*Nie powtarzanie się tła*/
     background-size: 100%; /*Skalowanie na pełen ekran*/
+    background-attachment: fixed;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Czcionka nie szeryfowa */
 }
 #logo { /* Opcje loga */
@@ -17,7 +18,8 @@ body {    /* Definiuje wygląd ciała strony */
     text-align: center; /* Wyśrodkowanie tekstu */
     font-style: italic; /* Pochylenie czcionki */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Czcionka nie szeryfowa */
-    transition: 2s; /* Czas przejścia przy ładowaniu strony */
+    transition: 1.2s; /* Czas przejścia przy ładowaniu strony */
+    padding: 18px;
 }
 #menu {
     background-color: darkgrey; /* Kolor tła menu */
@@ -103,5 +105,9 @@ div.option:hover {  /* Zachowanie opcji przy najechaniu na nie kursorem */
     font-family: 'Lato', sans-serif; /* Czcionka bezszeryfowa */
 }
 a {
-    color: yellow; /* Zmiana koloru hiperłącza */
+    text-decoration-line: none; /* Zmiana koloru hiperłącza */
+    color: inherit;
+}
+.acolor {
+    color:yellow;
 }
