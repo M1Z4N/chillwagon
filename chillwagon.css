@@ -5,7 +5,7 @@
 	margin-right: auto; /* Margines po prawej */
 }
 body {    /* Definiuje wygląd ciała strony */
-    background-image: url("background-image.png"); /* Kolor tła strony */
+    background-image: url("images/background-image.png"); /* Kolor tła strony */
     background-repeat: no-repeat; /*Nie powtarzanie się tła*/
     background-size: 100%; /*Skalowanie na pełen ekran*/
     background-attachment: fixed;
